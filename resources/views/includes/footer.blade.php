@@ -1,0 +1,1 @@
+<footer>&copy; Juan Casinos - 2017</footer>
