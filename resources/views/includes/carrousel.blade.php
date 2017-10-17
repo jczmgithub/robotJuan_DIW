@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -10,7 +10,7 @@
             <img src="images/manoRobot_carton.jpeg" alt="Mano robot">
         </div>
         <div class="item">
-            <img src="images/brazosRobot_carton.jpeg" alt="Brazos robot">
+            <img src="images/brazosRobot_carton2.jpeg" alt="Brazos robot">
         </div>
     </div>
     <!-- Left and right controls -->

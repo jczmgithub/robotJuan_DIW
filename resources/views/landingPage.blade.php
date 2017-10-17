@@ -18,6 +18,7 @@
                     <li>{{ $error }}</li>
                 @endforeach
             </ul>
+            <a href="#contact">Rellena correctamente el formulario</a>
         </div>
     @endif
 
