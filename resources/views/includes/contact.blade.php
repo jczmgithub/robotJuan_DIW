@@ -1,17 +1,18 @@
 <div id="contact" class="container-fluid">
     <h1>Contact Us</h1>
-    <form action="/action_page.php">
+    <form action="nuevoMensaje" method="post">
+        {!! csrf_field() !!}
         <div class="form-group">
-            <label for="name">Nombre:</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Enter name" name="nombre">
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
         </div>
         <div class="form-group">
-            <label for="message">Mensaje:</label>
-            <textarea class="form-control" id="message" placeholder="Enter message" name="message"></textarea>
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" placeholder="Enter message" name="mensaje"></textarea>
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>

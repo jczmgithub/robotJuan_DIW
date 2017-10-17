@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('landingPage');
 });
+
+Route::post('/nuevoMensaje', 'nuevoMensajeController@insertarNuevoMensaje');
+
