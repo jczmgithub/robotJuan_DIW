@@ -15,6 +15,8 @@
 
     @include('includes.modal')
 
+    @include('includes.loginModal')
+
     <div class="jumbotron text-center">
         @yield('titulo')
     </div>

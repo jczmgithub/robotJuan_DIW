@@ -12,6 +12,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                @if (Request::is('/'))
                     <li><a href="#myCarousel">Imagenes</a></li>
                     <li><a href="#sectionBrazo">Brazo robot</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
@@ -21,12 +22,13 @@
                         </ul>
                     </li>
                     <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+                @endif
                     <!-- Trigger the modal with a button -->
                     <li><button type="button" class="btn btn-info navbar-btn" data-toggle="modal" data-target="#myModal">Datos de contacto</button></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
         </div>

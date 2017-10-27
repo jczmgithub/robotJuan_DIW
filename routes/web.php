@@ -17,3 +17,12 @@ Route::get('/', function () {
 
 Route::post('/nuevoMensaje', 'nuevoMensajeController@insertarNuevoMensaje');
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::post('/nuevoRegistro', 'nuevoRegistroController@insertarNuevoRegistro');
+
+Route::post('/nuevoLogin', 'nuevoLoginController@insertarNuevoLogin');
+
+
