@@ -11,7 +11,7 @@
         <div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Top</a></li>
                 @if (Request::is('/'))
                     <li><a href="#myCarousel">Imagenes</a></li>
                     <li><a href="#sectionBrazo">Brazo robot</a></li>
