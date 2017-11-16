@@ -11,6 +11,7 @@
                     <br>Rentería – Belabaratz – Barrio de Zamalbide s/n, 20100 Rentería – Guipúzcoa</p>
                 <p>Teléfono: 686.846.015
                     <br>Email: info@domotek.es</p>
+                <p>Web: <a href="https://domotek.es/" target="_blank">https://domotek.es</a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

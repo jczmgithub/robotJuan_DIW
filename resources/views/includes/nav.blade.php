@@ -23,6 +23,7 @@
                     </li>
                     <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
                     <li><a href="/novedades">Novedades</a></li>
+                    <li><a href="/layout">Layout</a></li>
                 @endif
                     <!-- Trigger the modal with a button -->
                     <li><button type="button" class="btn btn-info navbar-btn" data-toggle="modal" data-target="#myModal">Datos de contacto</button></li>

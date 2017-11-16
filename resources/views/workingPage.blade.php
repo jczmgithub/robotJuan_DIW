@@ -10,9 +10,7 @@
 
 @section('content')
 
-    <div id="construccion">
-
-    </div>
+    <img style="margin: auto" src="images/prueba.gif" class="img-responsive" alt="Prueba">
 
     <audio id="mySoundClip">
         <source src="audio/working.mp3"/>

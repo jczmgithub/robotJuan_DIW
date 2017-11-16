@@ -28,3 +28,7 @@ Route::post('/nuevoLogin', 'nuevoLoginController@insertarNuevoLogin');
 Route::get('/novedades', function () {
     return view('workingPage');
 });
+
+Route::get('/layout', function () {
+    return view('layouts/master');
+});
