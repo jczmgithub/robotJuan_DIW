@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/robotJuan.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     @include('includes.nav')
 
     @include('includes.modal')

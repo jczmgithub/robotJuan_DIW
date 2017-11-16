@@ -60,3 +60,11 @@ footer {
     background-image: url("/images/prueba.gif");
     margin: auto;
 }
+
+
+
+
+
+.btn-default {
+    background-color: #9d9d9d;
+}
