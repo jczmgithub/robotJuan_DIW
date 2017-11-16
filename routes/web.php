@@ -25,4 +25,6 @@ Route::post('/nuevoRegistro', 'nuevoRegistroController@insertarNuevoRegistro');
 
 Route::post('/nuevoLogin', 'nuevoLoginController@insertarNuevoLogin');
 
-
+Route::get('/novedades', function () {
+    return view('workingPage');
+});
