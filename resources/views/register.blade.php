@@ -3,13 +3,10 @@
 @section('title', 'DomoTek')
 
 @section('titulo')
-
     <h1>Registrate</h1>
-
 @stop
 
 @section('content')
-
     <div id="register" class="container-fluid">
         <form action="nuevoRegistro" method="post">
             {!! csrf_field() !!}
@@ -36,6 +33,5 @@
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
     </div>
-
 @stop
 

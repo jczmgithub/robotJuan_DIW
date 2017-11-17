@@ -3,12 +3,7 @@
 @section('title', 'DomoTek')
 
 @section('titulo')
-    <h1 id="jumbotronLanding">DomoTek</h1>
-@stop
-
-@section('content')
-
-    @if ($errors->any())
+    <h1 id="jumbotronLanding">Domoors->any())
         <div class="alert alert-danger">
             <p>Oops! Something went wrong</p>
             <ul>
@@ -23,10 +18,6 @@
     @include('includes.sections')
 
     @include('includes.video')
-
-    {{--
-    @include('includes.carrousel')
-    --}}
 
     @include('includes.contact')
 

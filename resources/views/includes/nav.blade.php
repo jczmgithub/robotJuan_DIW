@@ -19,15 +19,6 @@
                 @if (Request::is('/'))
                     <li><a href="#sectionBrazo">Brazo robot</a></li>
                     <li><a href="#video">Video</a></li>
-                    <!--
-                    <li><a href="#myCarousel">Imagenes</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#section41">Section 4-1</a></li>
-                            <li><a href="#section42">Section 4-2</a></li>
-                        </ul>
-                    </li>
-                    -->
                     <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
                 @endif
                 </ul>

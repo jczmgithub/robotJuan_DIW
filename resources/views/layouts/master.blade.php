@@ -19,7 +19,7 @@
 
     @include('includes.loginModal')
 
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center jumbotronLayout">
         @yield('titulo')
     </div>
 
