@@ -22,7 +22,11 @@
         </div>
     @endif
 
+    @include('includes.video')
+
+    {{--
     @include('includes.carrousel')
+    --}}
 
     @include('includes.sections')
 
