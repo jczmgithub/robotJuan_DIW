@@ -4,8 +4,6 @@
 
 @section('titulo')
     <h1>DomoTek</h1>
-    <p>DomoTek es una empresa de impresión 3D, escaneado y prototipado 3D.
-        <br>Te ofrecemos un servicio de impresión rápido y eficaz.</p>
 @stop
 
 @section('content')
@@ -22,13 +20,13 @@
         </div>
     @endif
 
+    @include('includes.sections')
+
     @include('includes.video')
 
     {{--
     @include('includes.carrousel')
     --}}
-
-    @include('includes.sections')
 
     @include('includes.contact')
 

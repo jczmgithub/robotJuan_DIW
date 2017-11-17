@@ -1,5 +1,5 @@
 <footer>
-    <h4>&copy; Juan Casinos - 2017</h4>
+    <h5>&copy; Juan Casinos - 2017</h5>
 
     <div class="social-networks">
         <a href="https://twitter.com/" target="_blank" class="twitter"><span class="fa fa-twitter"></span></a>
