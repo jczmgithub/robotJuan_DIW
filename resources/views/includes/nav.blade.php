@@ -8,7 +8,7 @@
             </button>
             <a class="navbar-brand" href="/">DomoTek <span class="glyphicon glyphicon-home"></span></a>
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-default navbar-btn btn-xs" data-toggle="modal" data-target="#myModal">
+            <button type="button" id="btnInfoNav" class="btn btn-default navbar-btn btn-xs" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-info-sign"></span>
             </button>
         </div>

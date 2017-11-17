@@ -20,18 +20,19 @@ body {
     position: relative;
 }
 
+h1 {
+    font-family: h1Font, Arial, Helvetica, sans-serif;
+}
+/*
+#jumbotronLanding {
+    font-size: 15vmin;
+}
+*/
 .jumbotron {
     text-align: center;
     margin-top: 80px;
     padding-top: 10px;
-}
-
-.jumbotron .h1, .jumbotron h1 {
-    font-size: 15vw;
-}
-
-h1 {
-    font-family: h1Font, Arial, Helvetica, sans-serif;
+    font-size: 15vmin;
 }
 
 #video {
@@ -92,46 +93,38 @@ footer {
     margin: auto;
 }
 
-
-
-
-
-.btn-default {
+/* boton info navbar*/
+#btnInfoNav {
     background-color: #9d9d9d;
 }
+#btnInfoNav:hover {
+    background-color: #fff;
+}
 
-
-
-
+/* redes sociales footer*/
 .social-networks a {
     font-size: 32px;
     color: #f9f9f9;
     padding: 10px;
     transition: 0.2s;
 }
-
 .facebook:hover {
     color: #0077e2;
 }
-
 .google:hover {
     color: #ef1a1a;
 }
-
 .twitter:hover {
     color: #00aced;
 }
-
 .pinterest:hover {
     color: #bd081c;
 }
-
 .instagram:hover {
     color: #bd1774;
 }
 
-
-
+/* navbar collapse */
 @media (max-width: 900px) {
     .navbar-header {
         float: none;

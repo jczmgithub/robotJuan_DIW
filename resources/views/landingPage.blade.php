@@ -3,7 +3,7 @@
 @section('title', 'DomoTek')
 
 @section('titulo')
-    <h1>DomoTek</h1>
+    <h1 id="jumbotronLanding">DomoTek</h1>
 @stop
 
 @section('content')
