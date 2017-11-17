@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: h1LandingFont;
-    src: url(/fonts/7LED.ttf);
+    src: url(/fonts/digital-7.ttf);
 }
 
 body {
@@ -28,6 +28,10 @@ body {
 
 h1 {
     font-family: h1Font;
+}
+
+#myNavbar {
+    font-size: 18px;
 }
 
 #jumbotronLanding {
@@ -53,10 +57,10 @@ h1 {
 
 #sectionBrazo {
     padding: 50px;
+    padding-left: 20%;
     color: #fff;
     background-color: #919191;
     margin-top: 30px;
-    text-align: center;
     font-size: 18px;
 }
 
@@ -118,7 +122,7 @@ footer {
 }
 
 /* navbar collapse */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .navbar-header {
         float: none;
     }

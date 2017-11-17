@@ -4,6 +4,7 @@
 
 @section('titulo')
     <h1 id="jumbotronLanding">DomoTek</h1>
+    <h2>kahgbdchjd</h2>
 @stop
 
 @section('content')
