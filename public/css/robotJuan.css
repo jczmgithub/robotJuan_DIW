@@ -30,8 +30,20 @@ h1 {
     font-family: h1Font;
 }
 
-h2 {
-    color: #d6b139;
+/* Color_X */
+.colorTxtX {
+    color: #d6b139 !important;
+}
+.colorBgX {
+    background-color: #d6b139 !important;
+}
+
+/* boton info navbar*/
+#btnInfoNav:hover {
+    background-color: #fff !important;
+}
+#home:hover {
+    color: #fff !important;
 }
 
 #myNavbar {
@@ -61,7 +73,6 @@ h2 {
 
 #sectionBrazo {
     padding: 50px;
-    padding-left: 20%;
     color: #fff;
     background-color: #919191;
     margin-top: 30px;
@@ -85,21 +96,6 @@ footer {
     background-color: #101010;
     color: white;
     margin-top: 30px;
-}
-
-#construccionDiv {
-    width: 500px;
-    height: 280px;
-    background-image: url("/images/prueba.gif");
-    margin: auto;
-}
-
-/* boton info navbar*/
-#btnInfoNav {
-    background-color: #d6b139;
-}
-#btnInfoNav:hover {
-    background-color: #fff;
 }
 
 /* redes sociales footer*/

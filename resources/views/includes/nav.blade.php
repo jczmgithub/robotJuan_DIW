@@ -6,9 +6,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">RBX1 <span class="glyphicon glyphicon-home"></span></a>
+            <a id="home" class="navbar-brand colorTxtX" href="/">RBX1 <span class="glyphicon glyphicon-home"></span></a>
             <!-- Trigger the modal with a button -->
-            <button type="button" id="btnInfoNav" class="btn btn-default navbar-btn btn-xs" data-toggle="modal" data-target="#myModal">
+            <button type="button" id="btnInfoNav" class="btn btn-default navbar-btn btn-xs colorBgX" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-info-sign"></span>
             </button>
         </div>
