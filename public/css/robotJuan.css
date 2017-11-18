@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: h1LandingFont;
-    src: url(/fonts/digital-7.ttf);
+    src: url(/fonts/neuropol.ttf);
 }
 
 body {
@@ -28,6 +28,10 @@ body {
 
 h1 {
     font-family: h1Font;
+}
+
+h2 {
+    color: #d6b139;
 }
 
 #myNavbar {
@@ -92,7 +96,7 @@ footer {
 
 /* boton info navbar*/
 #btnInfoNav {
-    background-color: #9d9d9d;
+    background-color: #d6b139;
 }
 #btnInfoNav:hover {
     background-color: #fff;

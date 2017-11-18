@@ -3,8 +3,8 @@
 @section('title', 'DomoTek')
 
 @section('titulo')
-    <h1 id="jumbotronLanding">DomoTek</h1>
-    <h2>kahgbdchjd</h2>
+    <h1 id="jumbotronLanding">RBX1</h1>
+    <h2>Saca el máximo partido de tu brazo robot</h2>
 @stop
 
 @section('content')

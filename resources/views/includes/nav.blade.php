@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DomoTek <span class="glyphicon glyphicon-home"></span></a>
+            <a class="navbar-brand" href="/">RBX1 <span class="glyphicon glyphicon-home"></span></a>
             <!-- Trigger the modal with a button -->
             <button type="button" id="btnInfoNav" class="btn btn-default navbar-btn btn-xs" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-info-sign"></span>
@@ -24,7 +24,7 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/novedades">Novedades</a></li>
+                    <li><a href="/novedades">UserExperience</a></li>
                     <li><a href="/layout">Layout</a></li>
                     <li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
