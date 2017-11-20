@@ -24,6 +24,7 @@
 body {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
@@ -33,6 +34,9 @@ h1 {
 /* Color_X */
 .colorTxtX {
     color: #d6b139 !important;
+}
+.shadowWhite {
+    text-shadow: 1px 1px white;
 }
 .colorBgX {
     background-color: #d6b139 !important;
@@ -98,6 +102,38 @@ footer {
     margin-top: 30px;
 }
 
+/* separador seccion brazo robot landing page*/
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px white inset;
+}
+hr.style14 {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+hr.style18 {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style18:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
 /* redes sociales footer*/
 .social-networks a {
     font-size: 32px;
@@ -108,9 +144,6 @@ footer {
 .facebook:hover {
     color: #0077e2;
 }
-.google:hover {
-    color: #ef1a1a;
-}
 .twitter:hover {
     color: #00aced;
 }
@@ -119,6 +152,9 @@ footer {
 }
 .instagram:hover {
     color: #bd1774;
+}
+.youtube:hover {
+    color: #ef1a1a;
 }
 
 /* navbar collapse */
