@@ -14,6 +14,7 @@
             <label for="mensaje">Mensaje:</label>
             <textarea class="form-control" id="mensaje" placeholder="Enter message" name="mensaje"></textarea>
         </div>
+        <br>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
 </div>

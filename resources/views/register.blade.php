@@ -26,10 +26,7 @@
                 <label for="password">Password:</label>
                 <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
             </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" placeholder="Enter message" name="mensaje"></textarea>
-            </div>
+            <br>
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
     </div>

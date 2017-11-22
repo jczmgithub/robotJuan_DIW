@@ -4,7 +4,7 @@
 
 @section('titulo')
     <h1 id="jumbotronLanding">RBX1</h1>
-    <h2 class="colorTxtX">Saca el máximo partido de tu brazo robot</h2>
+    <h2 class="colorTxtX">Te ayudamos a sacar el máximo partido a tu brazo robot</h2>
 @stop
 
 @section('content')

@@ -11,7 +11,7 @@
             <p>Ahorra tiempo y trabajo.</p>
 
             <h1>User experience</h1>
-            <p>¡Disfruta!</p>
+            <p>¡Disfruta de nustra aplicación web!</p>
         </div>
         <div class="col-lg-6">
             <img style="margin: auto" src="images/manoRobot.jpeg" class="img-responsive" alt="Mano robot">
